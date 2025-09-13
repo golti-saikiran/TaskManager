@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F8FAFC" x="0" y="0" width="800" height="600"></rect>
+        <g transform="translate(100, 100)">
+            <!-- Main Task Card -->
+            <rect fill="#FFFFFF" x="0" y="0" width="600" height="400" rx="16"></rect>
+            <rect stroke="#E2E8F0" x="0.5" y="0.5" width="599" height="399" rx="15.5"></rect>
+            
+            <!-- Task Items -->
+            <g transform="translate(40, 40)">
+                <!-- Task 1 -->
+                <rect fill="#EBF5FF" x="0" y="0" width="520" height="60" rx="8"></rect>
+                <rect fill="#3B82F6" x="20" y="25" width="20" height="10" rx="2"></rect>
+                <rect fill="#CBD5E1" x="60" y="25" width="200" height="10" rx="2"></rect>
+                
+                <!-- Task 2 -->
+                <rect fill="#EBF5FF" x="0" y="80" width="520" height="60" rx="8"></rect>
+                <rect fill="#3B82F6" x="20" y="105" width="20" height="10" rx="2"></rect>
+                <rect fill="#CBD5E1" x="60" y="105" width="240" height="10" rx="2"></rect>
+                
+                <!-- Task 3 -->
+                <rect fill="#EBF5FF" x="0" y="160" width="520" height="60" rx="8"></rect>
+                <rect fill="#3B82F6" x="20" y="185" width="20" height="10" rx="2"></rect>
+                <rect fill="#CBD5E1" x="60" y="185" width="180" height="10" rx="2"></rect>
+                
+                <!-- Task 4 -->
+                <rect fill="#EBF5FF" x="0" y="240" width="520" height="60" rx="8"></rect>
+                <rect fill="#3B82F6" x="20" y="265" width="20" height="10" rx="2"></rect>
+                <rect fill="#CBD5E1" x="60" y="265" width="220" height="10" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
