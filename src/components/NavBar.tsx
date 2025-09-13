@@ -5,7 +5,7 @@ import { useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 
 const NavBar = () => {
-    const { isSignedIn, user, isLoaded } = useUser();
+    const { user } = useUser();
     return <header className="w-full h-20 bg-blue-50 flex items-center justify-between px-5 text-oklch(27.4% 0.006 286.033) fixed top-0 z-10 shadow-md ">
         <Link href="/" className="text-xl font-bold sm:text-2xl">Task Manager</Link>
         <SignedOut>

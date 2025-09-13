@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from 'react';
 import { useUser } from '@clerk/nextjs';
-import { FiX, FiPlus } from 'react-icons/fi';
+import { FiPlus } from 'react-icons/fi';
 
 interface TaskFormProps {
     onTaskAdded: () => void;
