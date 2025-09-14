@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Task Manager (Next.js + Clerk + MongoDB)
 
-## Getting Started
+A full-stack **Task Manager App** built with **Next.js 14 (App Router)**, **Clerk authentication**, **MongoDB Atlas**, and **TailwindCSS**.  
+Users can **sign in**, **create tasks**, **filter/search tasks**, and **track progress** with stats — all deployed on **Netlify**.  
 
-First, run the development server:
+---
+
+## 🚀 Demo
+
+🔗 [Live Demo](https://your-netlify-url.netlify.app)  
+
+---
+
+## ✨ Features
+
+- 🔐 **Authentication** with [Clerk](https://clerk.com)  
+- 🗂️ **Task Management** (CRUD: create, read, update, delete)  
+- 🔍 **Search & Filter** (by status & priority)  
+- 📊 **Stats Dashboard** (completed, in progress, priorities)  
+- 🎨 **Modern UI** with TailwindCSS  
+- ☁️ **MongoDB Atlas** for persistence  
+- 🌐 **Deployed on Netlify**  
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 14 (App Router)](https://nextjs.org/)  
+- [Clerk](https://clerk.com/) (Authentication)  
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [Netlify](https://www.netlify.com/) (Deployment)  
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repo:
 
 ```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+npm install
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+CLERK_SECRET_KEY=your-clerk-secret-key
+MONGO_URI=your-mongodb-uri
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Deployment (Netlify)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Push your repo to GitHub.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Connect the repo on Netlify
+.
 
-## Learn More
+Add your environment variables in Netlify dashboard (NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY, MONGO_URI, NEXT_PUBLIC_APP_URL).
 
-To learn more about Next.js, take a look at the following resources:
+Deploy 🎉
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🤝 Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Fork the repo, make changes, and open a PR.
