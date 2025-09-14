@@ -7,7 +7,7 @@ Users can **sign in**, **create tasks**, **filter/search tasks**, and **track pr
 
 ## 🚀 Demo
 
-🔗 [Live Demo](https://your-netlify-url.netlify.app)  
+🔗 [Live Demo](https://sk-taskmanager.netlify.app/)  
 
 ---
 
